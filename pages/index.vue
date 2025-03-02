@@ -3,7 +3,8 @@ import SwiperSlider from "@/components/SwiperSlider.vue";
 import ServicesComponent from "~/components/ServicesComponent.vue";
 import { onMounted, ref } from "vue";
 import gsap from "gsap";
-import { ScrollTrigger } from "gsap/ScrollTrigger";
+import ScrollTrigger from "gsap/ScrollTrigger";
+
 gsap.registerPlugin(ScrollTrigger);
 
 // Refs for animations
